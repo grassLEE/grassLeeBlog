@@ -1,5 +1,5 @@
 # Getting Started with Technical Writing
 
-![Image](https://jeffreygraessley.com/blog/2023/pages/getting-started-with-technical-writing.jpg)
+![Image](https://jeffreygraessley.com/blog/2023/pages/grass.jpg)
 
 [Top](#Getting-Started-with-Technical-Writing)
