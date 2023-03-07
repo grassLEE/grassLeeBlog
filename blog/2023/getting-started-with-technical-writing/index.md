@@ -1,5 +1,5 @@
 # Getting Started with Technical Writing
 
-![Image](https://github.com/grassLEE/grassleeblog/blob/main/images/grass.jpg)
+![Image](https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/grass.jpg)
 
 [Top](#Getting-Started-with-Technical-Writing)
