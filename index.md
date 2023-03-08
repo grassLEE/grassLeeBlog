@@ -1,4 +1,4 @@
-# All Posts
+# All Technical Blogs
 
 March 03, 2023
 
