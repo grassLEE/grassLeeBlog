@@ -18,4 +18,4 @@ We'll spend a bit more time with that concept and its far reaching potential a l
 
 ![Image](https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/grass.jpg)
 
-[Top](#Getting-Started-with-Technical-Writing)
+[Top](#getting-started-with-technical-writing)
