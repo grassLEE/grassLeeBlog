@@ -51,8 +51,7 @@ Depending on the text editor you select, the built-in function will suggest vali
 There are seemingly a limitless amount of tools, platforms, text editors, and resources out there to help you. Don't get bogged down with the amount of choices, experiment with a range of solutions, and find out what works best for you.
 
 And consider starting your technical writer journey out with Markdown, you'll find it is much easier to get started than you might think... and there is seemingly no limits to this tool's potential. 
-### Learning Markdown:
 
-![Image](https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/markdown.jpg)
+<img src="https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/markdown.jpg" width="25%" height="25%">
 
 [Top](#getting-started-with-technical-writing)
