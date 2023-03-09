@@ -16,14 +16,14 @@ We'll spend a bit more time with that concept and its far reaching potential a l
 
 ## Learning Markdown:
 
-There are several great resources available for learning everything you need to know about getting started with Markdown. A couple of my favorites include this free tutorial, [**located here**](https://www.markdowntutorial.com/lesson/1/) and the text, *The Markdown Guide* available on [**Amazon**](https://www.amazon.com/Markdown-Guide-Matt-Cone-ebook/dp/B07G7JB641/ref=sr_1_1?crid=V3PPDG97Z61J&keywords=markdown+guide&qid=1678321060&sprefix=markdown+guid%2Caps%2C183&sr=8-1). 
+There are several great resources available for learning everything you need to know about getting started with Markdown. A couple of my favorites include this free tutorial, [**located here**](https://www.markdowntutorial.com/lesson/1/), and the text, *The Markdown Guide* available on [**Amazon**](https://www.amazon.com/Markdown-Guide-Matt-Cone-ebook/dp/B07G7JB641/ref=sr_1_1?crid=V3PPDG97Z61J&keywords=markdown+guide&qid=1678321060&sprefix=markdown+guid%2Caps%2C183&sr=8-1). 
 
 But I'd to spend a little bit of time demonstrating some lesser known syntax and functional capabilities.
 
 ### Linking to sections within a document: 
 Of course, both of the above resources will go into great detail concerning hyperlinks, including inline and reference options. 
 
-However, what navigation links for text sections within a Markdown file?
+However, what about navigation links for text sections within a Markdown file?
 
 Markdown has us covered. Take a look at this quick code snippet:
 
