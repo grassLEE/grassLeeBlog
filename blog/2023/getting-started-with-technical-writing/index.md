@@ -53,6 +53,6 @@ There are seemingly a limitless amount of tools, platforms, text editors, and re
 And consider starting your technical writer journey out with Markdown, you'll find it is much easier to get started than you might think... and there is seemingly no limits to this tool's potential. 
 ### Learning Markdown:
 
-![Image](https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/grass.jpg)
+![Image](https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/markdown.jpg)
 
 [Top](#getting-started-with-technical-writing)
