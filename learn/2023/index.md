@@ -2,4 +2,4 @@
 
 March 23, 2023
 
-[python_notes_TechWorld_with_Nana](https://jeffreygraessley.com/learn/2023/python-notes-TechWorld-with-Nana)
+[Python Notes: TechWorld with Nana](https://jeffreygraessley.com/learn/2023/python-notes-TechWorld-with-Nana)
