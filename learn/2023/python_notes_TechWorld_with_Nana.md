@@ -4,7 +4,6 @@
 **Data Types:**  
 Text = **"String" or 'String'**  
 *Python accepts both 'single' and "double" quotes.*  
-
 Numbers = **Two types**    
 Integers = **whole numbers:** 20, 1, -20, etc.  
 Floating point = **decimals:** $19.99
@@ -69,7 +68,7 @@ name_of_units = "seconds"
 def days_to_units():
     print(f"20 days are {20 * calculation_to_units}{name_of_units}")
 
-days_to_units()  #Required execution call of new function.
+days_to_units()  # Required execution call of new function.
 ```
 The above example demonstrates a basic function in action. Remember, when describing a new function, it will only run when specially called/executed. 
 
@@ -82,8 +81,8 @@ calculation_to_units = 24 * 60 * 60
 name_of_units = "seconds"
 
 
-def days_to_units(num_of_days):  #Variable defined within a function.
-    print(f"{num_of_days} days are {num_of_days * calculation_to_units}{name_of_units}"{num_of_days * calculation_to_units}{name_of_units}")
+def days_to_units(num_of_days):  # Variable defined within a function.
+    print(f"{num_of_days} days are {num_of_days * calculation_to_units}{name_of_units}")
 
 
 days_to_units()
@@ -97,9 +96,10 @@ def days_to_units(num_of_days, custom_msg):
     print(custom_msg)
 
 
-days_to_units(20, "Awesome")  #Requires two inputs.
-days_to_units(35, "Neat")  #Requires two inputs.
+days_to_units(20, "Awesome")  # Requires two inputs.
+days_to_units(35, "Neat")  # Requires two inputs.
 ```
+
 ### **Scope:**
 Variable scope refers to where the variable is located.  
 **Global Scope** = Variables available from within any scope.  
@@ -167,3 +167,105 @@ def days_to_units(num_of_days):
     else:
         return "You have entered an invalid number."
 ```
+
+### **Logic to Define Negative Values and Zero:**
+True and false values are represented as a boolean. These are allowed to be nested inside of other function calls.  
+
+Note: 
+- ( = ) is used to assign value to a variable
+- ( == ) is used as for equality of value checks. 
+
+#### Example:
+```Python
+def days_to_units(num_of_days):
+    if num_of_days > 0:
+        return f"{num_of_days} days are {num_of_days * calculation_to_units}{name_of_units}"
+    elif num_of_days == 0:  # Condition 
+        return "Entered an invalid number: 0."
+    else:  # Called without conditions
+        return "Entered an invalid number: negative value."
+```
+### **Protect Against Strings and Other Non-Int Value Inputs:**
+### Example:
+```Python
+user_input = input("Hey User, enter a value and I will convert it!")
+        
+        if user_input.isdigit():  # .isdigit - built-in Python function used to check for positive integers.
+            user_input_num = int(user_input)
+            calculated_value = days_to_units(user_input_num)
+            print(calculated_value)
+        else:
+            print("Input is not valid.")
+```
+### **Cleaning Up Code:**
+Define the previous if/else statement in its own definition. 
+
+#### Example:
+```Python
+def validate_and_execute():
+    if user_input.isdigit():
+        user_input.num = int(user_input)
+        calculate_value = days_to_units(user_input_num)
+        print(calculated.value)
+    else:
+        print("Input is not valid")
+
+
+user.input = input("Hey user...")
+validate_and_execute()  # When declaring a new definition, must execute it in the file.
+```
+
+### **Nested if/else Statements:**
+#### Example: Perform all validation in one definition
+
+```Python
+def validate_and_execute():
+    if user_input.isdigit():
+        user_input_num = int(user_input)
+        if user_input_num > 0:
+            calculated_value = days_to_units(user_input_num)
+            print(calculated_value)
+        elif user_input_number == 0:
+            print("Input is not positive.")
+    else:
+        print("Input is not valid.")
+```
+
+### **Error Handling with try/except:**
+#### try/except:
+- The try block: tests a block of code for errors.  
+- The except block: catches errors and handles them through programming logic.
+
+### **While Loops:**
+#### Looping:
+- execute logic multiple times.
+- Python has two (2) types of loops: *for* and *while*
+- Conditions are used to evaluate true/false and most commonly found in "if statements and loops"  
+
+**While** loop: execute a set of statements as long as the condition is true.
+#### Example:
+```Python
+while True  # Requires capital letter. Will continuously run.
+    user_input = input("Hey user...\n")  # \n used to create a new line for the user.
+    validate_and_execute()
+```
+
+**For** loop: used for iterating over a sequence, like a list. Also used to so the program can execute something for each item represented in a list.
+#### Example:
+```Python
+user_input = ""
+while user_input != "exit":
+    user_input = input("Hey user...")
+    for num_of_days_element in user_input.split(", "):
+        validate_and_execute()
+```
+**.split:** built-in Python function to convert string into list. Transforms "10 22 30 100" to [10, 22, 30, 100] .split uses spaces as default separator. The (", ") in the above example is used to allow input separations by comma from the user. 
+
+### **Basic List Operations:**
+**Lists:** used to store multiple items in a single variable. Represented with [ ], such as: [10, 22, 30, 100].
+**Operations:**
+- create list
+- add item to a list
+- remove an item from the list
+- change items in the list
+- access items in the list
