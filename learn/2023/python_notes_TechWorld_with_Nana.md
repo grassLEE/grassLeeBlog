@@ -100,3 +100,70 @@ def days_to_units(num_of_days, custom_msg):
 days_to_units(20, "Awesome")  #Requires two inputs.
 days_to_units(35, "Neat")  #Requires two inputs.
 ```
+### **Scope:**
+Variable scope refers to where the variable is located.  
+**Global Scope** = Variables available from within any scope.  
+**Local Scope** = Variables created inside a specific function. Local variables can only be used inside a specific function.
+```Python
+def scope_check(num_of_days):
+    my_var = "variable inside a function."
+    print(name_of_unit)
+    print(num_of_days)
+    print(my_var)
+
+scope_check()  # Must pass parameter.
+```
+
+### **Accepting User Input:**
+**Python Built-in Function** = *input()*. This syntax prompts a user for an input. Python will stop executing when it comes to that user-input.
+**Expression** = An instruction that combines values and operators, evaluating down to a single value.
+```Python
+user_input = input("Hey user, enter number of days and I will convert it to hours.\n")
+```
+### **Function with Return Value:**
+Must return value in the function: 
+#### Example: 
+```Python 
+def days_to_units(num_of_days):
+    return f"{num_of_days} days are {num_of_days * calc_to_units}{name_of_unit}"
+```
+The above example has two key factors that must be considered:
+1. Changing the print( ) keyword to return. This will stop our logic from immediately printing input data. 
+2. Currently, the num_of_days variable is treated as a string, but it must be converted (or cast) with int( ).
+    - Same as the previously reviewed str( ) built-in Python function. 
+
+### **Using User Input Data:**
+#### Example: 
+```Python
+user_input = input("hey User,...")  # Always treats value as a string, not a number.
+```
+### **Casting:**
+#### Example:
+```Python
+user_input = input("hey User,...")
+int(user_input)  # Built-in Python function.
+```
+**Int( )** = A built-in Python function. Converts value in 'int' (whole numbers). Int number is returned by the function. 
+
+### **Conditionals (if/else) and Boolean Data Type:**
+Validate user inputs, help avoid and handle improper errors. Such as entries that don't make sense, or crash the program, or present potential security risks.
+
+### **Conditionals:**
+Expressions that calculate to either true or false:
+```Python
+equals: a == b
+not equals: a != b
+less than: a < b
+less than or equal: a <= b
+greater than: a > b
+greater than or equal: a >= b
+```
+### **If/Else Statements:**
+#### Example:
+```Python
+def days_to_units(num_of_days):
+    if num_of_days > 0:  # Condition that is either true or false.
+        return f"{num_of_days} days are {...}"
+    else:
+        return "You have entered an invalid number."
+```
