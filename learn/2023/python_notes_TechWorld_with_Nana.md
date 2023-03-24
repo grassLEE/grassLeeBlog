@@ -1,9 +1,11 @@
 ## Python Tutorial: TechWorld with Nana
 [Full Video](https://www.youtube.com/watch?v=t8pPdKYpowI&t=1169s)
-### Strings & Numbers:
+### Strings & Numbers:  
+
 **Data Types:**  
 Text = **"String" or 'String'**  
 *Python accepts both 'single' and "double" quotes.*  
+
 Numbers = **Two types**    
 Integers = **whole numbers:** 20, 1, -20, etc.  
 Floating point = **decimals:** $19.99
