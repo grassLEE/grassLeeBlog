@@ -271,3 +271,89 @@ while user_input != "exit":
 - remove an item from the list
 - change items in the list
 - access items in the list
+
+#### Example:
+```Python
+my_list = ["Jan", "Feb", "Mar"]
+my_list[0]  # Python lists start at 0. 
+print(my_list[0])  # Prints first entry from my_list.
+```
+
+### **Adding & Removing Entries from a List:**
+Python offers additional built-in functionality to easily add and remove entries from a list. 
+#### Example:
+```Python
+my_list = ["Jan", "Feb", "Mar"]
+my_list.append("Apr")
+print(my_list)  # Output: ["Jan", "Feb", "Mar", "Apr"]
+
+my_list = ["Jan", "Feb", "Mar", "Apr"]
+my_list.remove("Jan")
+print(my_list)  # Output: ["Feb", "Mar", "Apr"]
+```
+### **Sets:**
+Another built-in function of Python are Sets. Similar to Lists, Sets are used to store multiple items of data. However, with several key differences, such as, Sets do **NOT** allow for duplicate values.
+
+#### Example:
+```Python
+for num_of_days_element in set(user_input.split(", ")):  # The .split built-in function converts a List into a Set. 
+    validate_and_execute()
+```
+### **Nested Function Execution:**
+#### Example: 
+```Python
+list_of_days = user_input.split(", ")
+print(list_of_days)
+print(set(list_of_days))
+
+print(type(list_of_types))
+print(type(set(list_of_types)))
+```
+#### Example: *user input/output*
+**Input:** 10, 10, 20, 15, 55
+Python's output will follow the sequence from inner value to outer value. 
+**Output:**   
+['10', '10', '20', '15', '55']  
+{'10', '20', '55', '15'}  
+<class 'list'>  
+<class 'set'>  
+
+### **Nested Function Execution:** *Continued*
+```Python
+print(type(set(list_of_days)))
+```
+1. set(list_of_days)
+    - **Input:** User input array
+    - **Output:** Returns the converted set
+2. type (return_value_of_previous_function)
+    - **Input:** The converted set
+    - **Output:** Returns the datatype of the set
+3. print(return_value_of_previous_function)
+    - **Input:** The data type
+    - **Output:** Prints the value to console
+
+### **Basic Set Operations & Syntax:**
+Set Operations: 
+- Create a set
+- Access items (only via loop)
+- Add item to a set
+- Remove an item from a set
+
+Items in a set do **NOT** have a defined order (as they do in a list), items cannot be referred to by index (as performed with a list), and items cannot be changed - only added/removed. 
+#### Example:
+```Python
+my_set = {"Jan", "Feb", "Mar"}
+for element in my_set:
+    print(element)
+```
+#### Example: Add Elements to a Set
+```Python
+my_set.add("Apr")
+print(my_set)
+```
+#### Example: Remove Elements from a Set
+```Python
+my_set.remove("Jan")
+print(my_set)
+```
+### **Built-In Functions:**
