@@ -357,3 +357,65 @@ my_set.remove("Jan")
 print(my_set)
 ```
 ### **Built-In Functions:**
+**print( )** -> prints a standard output  
+**input( )** -> Asks user for an input
+**Set( )** -> returns a new set  
+**int( )** -> converts value to integer string  
+
+#### Direct Value Functions
+Such as the previously mentioned **.split( )**  
+Own list of functions dependent on that data type: string, list, and other function types. 
+
+### **Dictionary Data Type:**
+**Dictionary:** Used to store values in key:value pairs. A collection which doesn't allow for duplicate values. Items can be accessed via key name.
+
+#### Example:
+```Python
+my_dictionary = {
+    "days": 20,
+    "unit": "hours",
+}
+```
+#### Example:
+```Python
+days_and_unit_dictionary = {"days":days_to_unit[0]}  # Accessing items in a list via index - first item is 0.
+```
+
+**Accessing Dictionary Element/Entry:**
+```Python
+user_input_number = int(days_and_unit_dictionary["days"])
+```
+
+### List vs Dictionary:
+#### Example: List
+```Python
+my_list = ["20", "30", "100"]
+print(my_list[0])  # prints value of 20
+```
+
+#### Example: Dictionary
+```Python
+my_dictionary = {"days":20, "unit":"hours"}
+print(my_dictionary["days"])  # print value of 20
+```
+
+### **Import Statements:**
+```Python
+import Django  # takes all functions
+OR
+from filename import validate_and_execute  # Specific function from a module
+```
+The entire module import requires specific references in the function. Python supports more than one function utilizing 'from filename function'. 
+#### Example:
+```Python
+from helperNana import validate_and_execute, user_input_message
+```
+Elements/logic from another file are called definitions. Longer file names can be shortened with:
+#### Example:
+```Python
+import filename as h  # then needs h. ref at all points in the logic
+```
+### **Built-In Python Modules:**
+DateTime module - useful functions for working with dates.  
+OS module - operating system functions  
+logging module - error messages and warnings
