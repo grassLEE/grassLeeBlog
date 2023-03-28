@@ -418,4 +418,41 @@ import filename as h  # then needs h. ref at all points in the logic
 ### **Built-In Python Modules:**
 DateTime module - useful functions for working with dates.  
 OS module - operating system functions  
-logging module - error messages and warnings
+logging module - error messages and warnings.  
+
+### **Object Oriented Programming:**  
+
+#### Classes and Methods:  
+
+**Classes:** function as an object container. It must have an ```__init__( )``` function. This is executed automatically whenever creating the object from the class. The ```__init__( )``` constructor will autofill 'self'. 
+
+**Methods:** These are functions that belong to an object. See example below.
+
+#### Example: Creating a Class
+```Python
+class User: 
+    def __init__(self, email, name, password, job_title)
+        self.email = email
+        self.name = name
+        self.password = password
+        self.job_title = job_title
+
+    def change_password(self, new_password):
+        self.password = new_password
+    
+    def change_title(self, new_job_title):
+        self.job_title = new_job_title
+
+    def get_user_infor(self):
+        print(f"User {self.name} currently works as a {self.job_title} and can be reached at {self.email}")
+
+
+app_user_1 = User("J@j.com", "J G", "pwd", "DM")
+app_user_1.get_user_infor()
+
+app_user_1.change_job_title("Dev")
+app_user_1.get_user_infor()
+
+app_user_2 = User("a@a.com", "A A", "pwd1", "PM")
+```
+
