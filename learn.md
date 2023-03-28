@@ -2,4 +2,7 @@
 
 March 23, 2023
 
-[Python Notes: TechWorld with Nana](https://jeffreygraessley.com/learn/2023/python_notes_TechWorld_with_Nana)
+[Python Notes: Python Tutorial for Beginners](https://jeffreygraessley.com/learn/2023/python_notes_TechWorld_with_Nana)
+
+March 28, 2023
+[Python Notes: Simple Web App with Flask and Heroku]()
