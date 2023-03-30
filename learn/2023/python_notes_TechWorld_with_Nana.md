@@ -2,7 +2,7 @@
 [Full Video](https://www.youtube.com/watch?v=t8pPdKYpowI&t=1169s)
 ### Strings & Numbers:  
 
-**Data Types:**  
+#### Data Types:  
 Text = **"String" or 'String'**  
 *Python accepts both 'single' and "double" quotes.*  
 
@@ -456,4 +456,4 @@ app_user_1.get_user_infor()
 app_user_2 = User("a@a.com", "A A", "pwd1", "PM")
 ```
 
-[Top](##python-tutorial:-techworld-with-nana)
+[Top](#python-tutorial-techworld-with-nana)
