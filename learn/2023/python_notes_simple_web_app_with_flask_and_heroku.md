@@ -155,7 +155,7 @@ pip install MarkupSafe
  No longer a free option available.  
  Alternatively, use [Python Anywhere!](https://www.pythonanywhere.com)
  
- ### **App Demonstration:**
+### **App Demonstration:**
 #### Example: Landing
 <img src="https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/sayHello_landing.jpg" width="50%" height="50%">
 
