@@ -157,7 +157,7 @@ pip install MarkupSafe
  
  ### **App Demonstration:**
 #### Example: Landing
-<img src="https://github.com/grassLEE/grassleeblog/blob/main/images/sayHello_landing.jpg" width=50% height=50% text-align=center display=block margin-left= auto margin-right=auto>
+<img src="https://github.com/grassLEE/grassleeblog/blob/main/images/sayHello_landing.jpg" width=50% height=50% text-align=center display=block margin-left=auto margin-right=auto>
 
 #### Example: Response
-<img src="https://github.com/grassLEE/grassleeblog/blob/main/images/sayHello_response.jpg" width=50% height=50% text-align=center display=block margin-left= auto margin-right=auto>
+<img src="https://github.com/grassLEE/grassleeblog/blob/main/images/sayHello_response.jpg" width=50% height=50% text-align=center display=block margin-left=auto margin-right=auto>
