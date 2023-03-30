@@ -151,6 +151,6 @@ pip install MarkupSafe
  MarkupSafe == 2.0.1
  ```
 
-### **Deployment:** ~~Heroku:~~  
+### **Deployment:** ~~Heroku~~  
  No longer a free option available.  
  Alternatively, use [Python Anywhere!](https://www.pythonanywhere.com)
