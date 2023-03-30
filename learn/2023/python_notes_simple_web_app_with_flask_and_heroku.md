@@ -154,3 +154,10 @@ pip install MarkupSafe
 ### **Deployment:** ~~Heroku~~  
  No longer a free option available.  
  Alternatively, use [Python Anywhere!](https://www.pythonanywhere.com)
+ 
+ ### **App Demonstration:**
+#### Example: Landing
+<img src="https://github.com/grassLEE/grassleeblog/blob/main/images/sayHello_landing.jpg?raw=true" width=50% height=50% text-align=center display=block margin-left= auto margin-right=auto>
+
+#### Example: Response
+<img src="https://github.com/grassLEE/grassleeblog/blob/main/images/sayHello_response.jpg?raw=true" width=50% height=50% text-align=center display=block margin-left= auto margin-right=auto>
