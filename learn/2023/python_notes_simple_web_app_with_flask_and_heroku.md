@@ -57,17 +57,17 @@ def greet():
 
 ### **HTML Interaction with Python:**
 Syntax:
-```Python
+
 {{ % for loop in function()%}}
     <p>{{   }}</p>
 {{% forend %}}
-```
+
 #### Example: 
-```
+
 {% for message in get_flashed_message()%}
  <p> {{message}} </p>
 {% endfor %}
-```
+
 
 #### Example: Python
 ```Python 
@@ -151,6 +151,6 @@ pip install MarkupSafe
  MarkupSafe == 2.0.1
  ```
 
- ###  ~~**Heroku:**~~
+### **Deployment:** ~~Heroku:~~  
  No longer a free option available.  
  Alternatively, use [Python Anywhere!](https://www.pythonanywhere.com)
