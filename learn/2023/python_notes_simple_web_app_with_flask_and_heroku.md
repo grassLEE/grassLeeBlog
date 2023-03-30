@@ -62,8 +62,8 @@ Syntax:
     <p>{{   }}</p>
 {{% forend %}}
 ```
-#### Example: html
-```html
+#### Example: 
+```
 {% for message in get_flashed_message()%}
  <p> {{message}} </p>
 {% endfor %}
@@ -151,6 +151,6 @@ pip install MarkupSafe
  MarkupSafe == 2.0.1
  ```
 
- ### ~~**Heroku:**~~
- No longer a free option available. 
+ ###  ~~**Heroku:**~~
+ No longer a free option available.  
  Alternatively, use [Python Anywhere!](https://www.pythonanywhere.com)
