@@ -16,7 +16,7 @@ We'll spend a bit more time with that concept and its far reaching potential a l
 
 ## Learning Markdown:
 
-There are several great resources available for learning everything you need to know about getting started with Markdown. A couple of my favorites include this free tutorial, [**located here**](https://www.markdowntutorial.com/lesson/1/), and the text, *The Markdown Guide* available on [**Amazon**](https://www.amazon.com/Markdown-Guide-Matt-Cone-ebook/dp/B07G7JB641/ref=sr_1_1?crid=V3PPDG97Z61J&keywords=markdown+guide&qid=1678321060&sprefix=markdown+guid%2Caps%2C183&sr=8-1). 
+There are several great resources available for learning everything you need to know about getting started with Markdown. A couple of my favorites include this [**free tutorial**](https://www.markdowntutorial.com/lesson/1/), and the text, *The Markdown Guide* available on [**Amazon**](https://www.amazon.com/Markdown-Guide-Matt-Cone-ebook/dp/B07G7JB641/ref=sr_1_1?crid=V3PPDG97Z61J&keywords=markdown+guide&qid=1678321060&sprefix=markdown+guid%2Caps%2C183&sr=8-1). 
 
 But I'd to spend a little bit of time demonstrating some lesser known syntax and functional capabilities.
 
@@ -35,15 +35,15 @@ This output leverages the normal *linking* syntax, but with a few key difference
 
 However, there is a notable exception to keep in mind. The value inside the parenthesis must be lowercase, separated by a dash (-).
 
-Remember, these embedded links aren't exclusive to the title section. They can be implored for any section of your Markdown file that notated with a heading tag
+Remember, these embedded links aren't exclusive to the introduction of our files. They can be implored for any section of your Markdown file that's notated with a heading tag
 
 ~~~
-*h1
-**h2
-***h3 
+* h1
+** h2
+*** h3 
 ~~~
 
-Depending on the text editor you select, the built-in function will suggest valid endpoints based on the current headings. 
+Depending on the text editor you select, the built-in function will likely suggest valid endpoints based on the current headings. The single ( # ) will be used at the beginning of each heading, regardless of size... At least for Github flavored Markdown.
 
 [Linking Section](#linking-to-sections-within-a-document)
 
