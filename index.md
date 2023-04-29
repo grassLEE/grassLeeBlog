@@ -6,5 +6,5 @@ March 03, 2023
 
 April 29, 2023
 
-[Dictionaries, Lists, and More... in Python](https://jeffreygraessley.com/blog/2023/outline-your-technical-reports)
+[Dictionaries, Lists, and More... in Python](https://jeffreygraessley.com/blog/2023/dictionaries-lists-and-more)
 
