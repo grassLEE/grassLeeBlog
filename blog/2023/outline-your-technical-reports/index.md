@@ -1,3 +1,3 @@
-# Outline your Technical Reports 
+# Dictionaries, Lists, and More... in Python
 
-[Top](#outline-your-technical-reports)
+[Top](#dictionaries,_lists,_and_more_..._in_Python)
