@@ -1,6 +1,6 @@
-## Biography
+## Welcome!
 
-Hello! My name is **Jeffrey Graessley** and I built this portfolio/blog space as a vehicle to demonstrate some of the projects I have been working on, like my bookList which serves as an index to track the novels I have read.
+Hello! My name is **Jeffrey Graessley** and I built this portfolio/blog space as a vehicle to demonstrate some of the projects I have been working on, like my bookList app which serves as an index to track the novels I have read.
 
 ## But first, how about a little background information on me:  
 
@@ -8,7 +8,7 @@ Hello! My name is **Jeffrey Graessley** and I built this portfolio/blog space as
 ## Okay, back to the fun stuff...
 A major part of generating reliable reports for the R&D tax credit requires longform interviews with developers and engineers, breaking down the previous effort into smaller, component pieces. And by virtue of those many conversations, my interest in software development grew exponentially. 
 
-I would like to invite you to check out my various projects and associated writeups... especially my Notes_Reader project, where I programmatically generate 'notes' files for various individuals based the input value from the user. 
+I would like to invite you to check out my various projects and associated writeups... especially my Notes_Reader project, where I programmatically generate 'notes' files for various individuals based on the input value from the user. 
 
 ## New projects and other demonstrations
 Lastly, an early version of my bookApp can be found here on pythonanywhere.com [bookList](http://www.grasslee.pythonanywhere.com)
