@@ -8,5 +8,9 @@ April 29, 2023
 
 [Dictionaries, Lists, and more... in Python](https://jeffreygraessley.com/blog/2023/dictionaries-lists-and-more)
 
+May 22, 2023
+
+[Lesser Known HTML Elements and Attributes](https://jeffreygraessley.com/blog/2023/lesser-known-html-elements-and-attributes)
+
 
 
