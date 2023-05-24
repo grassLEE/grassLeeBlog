@@ -8,7 +8,7 @@ Additionally, there are two more required elements: **&lt;tr&gt;&lt;/tr&gt;**, w
 
 Our &lt;tr&gt; element will wrap each of our &lt;td&gt;(s), but let's see what it looks like in action.
 
-## Example Syntax
+### Example Syntax
 
 ```
 <table>
@@ -30,4 +30,26 @@ This basic markup will generate the architecture for our table. However, we can 
 
 The &lt;th&gt; element will mark our top level cells, making them simpler to identify and read. This improved readability is achieved through the element's prepackaged styling, including bold/centered text.
 
+### Example Syntax for &lt;th&gt; Element
+```
+<table>
+    <tr>
+        <th>Park Name</th>
+        <td>Heartwell</td>
+        <td>El Dorado</td>
+    </tr>
+    <tr>
+        <th>Location</th>
+        <td>Long Beach, CA</td>
+        <td>Long Beach, CA</td>
+    </tr>
+    <tr>
+        <th>Distance</th>
+        <td>3.4 miles</td>
+        <td>7.1 miles</td>
+    </tr>
+</table>
+```
+Now we have clear header indicators for each of our rows, providing a clean, well formatted-- excellent for those utilizing Screan Readers and other such devices. 
+  
 [Top](#each-piece-of-the-table)
