@@ -51,5 +51,5 @@ The &lt;th&gt; element will mark our top level cells, making them simpler to ide
 </table>
 ```
 Now we have clear header indicators for each of our rows, providing a clean, well formatted-- excellent for those utilizing Screan Readers and other such devices. 
-  
-[Top](#each-piece-of-the-table)
+
+[Top](#setting-the-html-table)
