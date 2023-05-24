@@ -12,5 +12,7 @@ May 22, 2023
 
 [Lesser Known HTML Elements and Attributes](https://jeffreygraessley.com/blog/2023/lesser-known-html-elements-and-attributes)
 
+May 24, 2023
 
+[Setting the HTML Table](https://jeffreygraessley.com/blog/2023/setting-the-html-table)
 
