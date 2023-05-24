@@ -10,8 +10,8 @@ A &lt;dl&gt;&lt;/dl&gt; functions in conjunction with two other elements: the &l
 
 ## Description List in Practice  
 ``` 
-<dl>
-    <dt>Example One</dt>
+<dl class="discworld">
+    <dt></dt>
     <dd>
     Here is our description text for example one.
     </dd>
@@ -21,10 +21,18 @@ A &lt;dl&gt;&lt;/dl&gt; functions in conjunction with two other elements: the &l
     </dd>
 </dl>
 ```
-[image]()
+[The &lt;dl&gt;&lt;/dl&gt; Element in actiona]("file:///Users/grasslee/Desktop/my_projects/learn_html/index.html")  
 
+## Application Examples:
+- A glossery of similar terms, such as a recipe/cookbook.
+- Metadata tags/descriptions
+- Appendix content
+- Embedded material to support longer content like articles
 
+## Putting the Element in Pactice  
+Of course, there are a range of important elements to use and consider when drafting longer text content, such as &lt;article&gt;, &lt;main&gt;, and our ever faithful &lt;p&gt; element. However, the &lt;dl&gt; elements are an excellent alternative for reference content that directly supports a main content entry like a blog post.
 
-### Application Examples:
-- A glossery of similar terms.
-- 
+And remember, we can wrap the &lt;dl&gt; in a class name, allowing us to easily target the element (and associated content) with Cascading Style Sheets (CSS).
+
+More on that later  
+[Top](#lesser-known-html-elements-and-attributeslesser-known-html-elements-and-attributes )
