@@ -11,13 +11,13 @@ A &lt;dl&gt;&lt;/dl&gt; functions in conjunction with two other elements: the &l
 ## Description List in Practice  
 ``` 
 <dl class="discworld">
-    <dt></dt>
+    <dt>Witches</dt>
     <dd>
-    Here is our description text for example one.
+    Theses novels center around three (four if you count the young adult novels): Granny Weatherwax, Nanny Ogg, and Magrat.
     </dd>
-    <dt>Example Two</dt>
+    <dt>Death</dt>
     <dd>
-    And here is some description text for example two.
+    These novels include: Mort, Reaper Man, and a personal favorite, Thief of Time... among others.
     </dd>
 </dl>
 ```
