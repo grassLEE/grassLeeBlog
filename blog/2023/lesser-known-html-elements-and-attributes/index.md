@@ -35,4 +35,4 @@ Of course, there are a range of important elements to use and consider when draf
 And remember, we can wrap the &lt;dl&gt; in a class name, allowing us to easily target the element (and associated content) with Cascading Style Sheets (CSS).
 
 More on that later  
-[Top](#lesser-known-html-elements-and-attributeslesser-known-html-elements-and-attributes )
+[Top](#lesser-known-html-elements-and-attributes) 
