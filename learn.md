@@ -1,4 +1,4 @@
-# All Python Tutorials
+# All Python Projects
 
 March 23, 2023
 
