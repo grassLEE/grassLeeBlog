@@ -1,4 +1,4 @@
-# All Technical Writing Samples
+# Technical Writing Samples
 
 [Getting Started with Technical Writing](https://jeffreygraessley.com/blog/2023/getting-started-with-technical-writing)  
 In this post I discuss some of the most commonly used tools that a TW will use throughout their day-to-day tasks. Additionally, I explore some of the syntax of Markdown and demonstrate in-page linking.
