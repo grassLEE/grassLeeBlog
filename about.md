@@ -1,6 +1,6 @@
 ## Welcome! 
 <div style="float:right; margin-right:10px;">
-<img src="https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/jeffrey-graessley1.jpeg" alt="Jeffrey Graessley Reading" width=75%>
+<img src="https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/jeffrey-graessley1.png" alt="Jeffrey Graessley Reading" width=75%>
 </div>
 
 Hello! My name is **Jeffrey Graessley** and I built this portfolio/blog space as a vehicle to demonstrate some of the projects I have been working on, like my bookList app which serves as an index to track the novels I have read. 
