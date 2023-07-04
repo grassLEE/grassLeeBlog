@@ -1,6 +1,9 @@
-## Welcome!
+## Welcome! 
+<div style="float:right; margin-right:10px;">
+<img src="https://github.com/grassLEE/grassleeblog/blob/main/images/jeffrey-graessley1.jpg?raw=true" alt="Jeffrey Graessley Reading" width=75%>
+</div>
 
-Hello! My name is **Jeffrey Graessley** and I built this portfolio/blog space as a vehicle to demonstrate some of the projects I have been working on, like my bookList app which serves as an index to track the novels I have read.
+Hello! My name is **Jeffrey Graessley** and I built this portfolio/blog space as a vehicle to demonstrate some of the projects I have been working on, like my bookList app which serves as an index to track the novels I have read. 
 
 ## But first, how about a little background information on me:  
 
@@ -11,5 +14,5 @@ A major part of generating reliable reports for the R&D tax credit requires long
 I would like to invite you to check out my various projects and associated writeups... especially my Notes_Reader project, where I programmatically generate 'notes' files for various individuals based on the input value from the user. 
 
 ## New projects and other demonstrations
-Lastly, an early version of my bookApp can be found here on pythonanywhere.com [bookList](http://www.grasslee.pythonanywhere.com)
+Lastly, an early version of my bookApp can be found here on my this website by following [this link](learn/2023).
 
