@@ -1,6 +1,6 @@
 # Projects
 
-### **A simple Flask based application** desgined to index the novels, including page count, author name, genre, and of course, the title.  
+### **A simple Flask based application** desgined to index novels, including page count, author name, genre, and of course, the title.  
 
 <img src="https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/bookapp1.png" width="50%" float="right" margin-right="10px">  
 
