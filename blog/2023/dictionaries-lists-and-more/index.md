@@ -9,5 +9,7 @@ dictionary = {"Granny Weatherwax":"witch", "Rincewind":"wizzard", "Magrat":"witc
 ```
 Each of our key value pairs are separated by colons and wrapped in quotes... making these entries strings. 
 
-However, keep in mind that a dictionary can hold multiple value types, including integers. 
+However, keep in mind that a dictionary can hold multiple value types, including integers, lists, and even other dictionaries. 
+
+Let's look at some important functions we can perform with dictionaries:
 
