@@ -1,13 +1,13 @@
 # Publications:  
 
-[Cabaret of Remembrance]()
+[Cabaret of Remembrance]()  
 Publication: Sweateshoppe Press
 
-[The Old Masters]()
+[The Old Masters]()  
 Publication: Arroyo Secco Press
 
-[Dual Impressions]()
+[Dual Impressions]()  
 Publication: Silver Birch Press
 
-[Her Blue Dress]()
+[Her Blue Dress]()  
 Publication: Silver Birch Press
