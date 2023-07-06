@@ -1,12 +1,18 @@
-Setting Up Reusable Templates:
+# Setting Up Reusable Templates:
 
-Intro
-Discuss what a blank template is and the benefits of having a formatted document ready to be generated
-Describe writing process:
-Starting a new draft with Google Docs -> Moving into VS Code and applying Markdown formatting
-Types: Word and Google Docs
+## Template Structure
+Most technical writing tasks rely on a set of formatting considerations that can often be tedious to setup, or at the very least time-consuming. That's where a template will save us invaluable time... along with future headaches, should we forget to follow the formatting requirements exactly. 
 
-Word
+In this article, I will walk you through the steps necessary to set up a reusable template using two popular writing tools: Microsoft Word and Google Docs. 
+
+### Writing Process
+As a quick aside, although it is not recommended for sharing, the above tools are great for initial drafts before moving into a more robust editor, such as Visual Studio Code (VSC). The built-in grammar/spell-check makes for convenient revisions, including spot checks for consistency and style. Then, after moving the new content into VSC, we can easily apply our Markdown syntax. 
+
+## Word
+To start, make sure you have set up the document in alignment with your working style guide and/or similar content from other writers at the organization. 
+
+Consider these mainstays: font, size, spacing considerations, and headers. Of course, there are other reusable text elements that can be included, just be sure to apply them to the document before saving.
+
 Initial formatting considerations for your blank document:
 Consider font/size/spacing/headers/other reusable text
 Pin template to Open(folder)
