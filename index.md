@@ -6,6 +6,9 @@ In this post I discuss some of the most commonly used tools that a TW will use t
 [Setting Up Reusable Templates](http://jeffreygraessley.com/blog/2023/setting-up-reusable-templates)  
 Optimizations to workflow can come in many shapes and sizes, one of the most important tasks, and an opportunity to optimize our writing process, comes from reusable templates. This article explores methods for Word and Google Docs, along with some additional best practices. 
 
+[Flask_Restful API - A Gentle Introduction](https://jeffreygraessley.com/blog/2023/flask-restful-api)
+Exploring some of the fundamentals of the flask_restful library, this article demonstrates a simple api to programatically add (including delete and updating) authors to a dictionary object. 
+
 [Dictionaries, Lists, and more... in Python](https://jeffreygraessley.com/blog/2023/dictionaries-lists-and-more)  
 This article explores the containers available in Python3, including rules that each follow, functions unique to the type, and other best practices for utilization. 
 
