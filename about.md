@@ -1,4 +1,4 @@
- ## Welcome 
+# Welcome 
 
 Hello! My name is **Jeffrey Graessley** and I built this portfolio/blog space as a vehicle to demonstrate some of the projects I have been working on, like my bookList app which serves as an index to track the novels I have read. 
 
