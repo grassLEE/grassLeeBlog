@@ -127,7 +127,7 @@ Now that we have our GET and POST method established. We are nearly ready to giv
 This is performed with this simple command logic
 ```api.add_resource(AllNovels, '/dsworld', '/dsworld/<int:novel_id>'```
 
-Here, we have two separate endpoints, the first **'/dsworld'** will return our list of novels from the db. While the **'/dsworld/<int:novel_id>'** will return the individual novel based on ID.
+Here, we have two separate endpoints, the first '/dsworld' will return our list of novels from the db. While the '/dsworld/<int:novel_id>' will return the individual novel based on ID.
 
 Finally, make sure to include this:
 
