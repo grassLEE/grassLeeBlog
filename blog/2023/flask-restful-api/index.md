@@ -83,7 +83,8 @@ Now to iterate over the similar types in our db, we call the cursor again along 
 As the .append functions to add the various arguments, we are able to comb through the entire list and print the list back with the final return statement **return {'novels': novel_list}**
 ## POST Method:
 
-```def post(self):
+```
+def post(self):
         data = request.get_json(force=True)
         if not data:
             return {'message': "Invalid request format. Expected 'application/json'."}, 400
