@@ -30,7 +30,7 @@ Let’s take a look at the len() function in action before we move on to lists a
 
 ```
 len(disc_dict) #calls the function, passing in our disc_dict dictionary
-print(len(disc_dict) # As with our above example, to view the data we need to call our print function.
+print(len(disc_dict) # as with our above example, to view the data we need to call our print function.
 $ 4 # printed output representing the number of key/value pairs in our dictionary
 ```
 
@@ -94,4 +94,4 @@ There are several more popular functions available in the list below, and countl
 5. `list.index(element)`: Returns the index of the first occurrence of the specified element in the list.
 6. `list.reverse()`: Reverses the order of the elements in the list.
 
-In future articles, we will explore some of the fundamentals of for and while loops, which allows us to iterate over a set of data and perform commands at each instance. 
+In future articles, we will explore some of the fundamentals of **for** and **while** loops, which allows us to iterate over a set of data and perform commands at each instance. 
