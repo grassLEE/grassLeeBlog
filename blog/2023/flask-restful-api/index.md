@@ -81,8 +81,8 @@ Whereas the following **else** statement provides an alternative SQL query targe
 Now to iterate over the similar types in our db, we call the cursor again along with the fetchall() method. This will allow us to populate the **novel_list** with a simple **for** loop. 
 
 As the .append functions to add the various arguments, we are able to comb through the entire list and print the list back with the final return statement **return {'novels': novel_list}**
-
 ## POST Method:
+
 ```def post(self):
         data = request.get_json(force=True)
         if not data:
