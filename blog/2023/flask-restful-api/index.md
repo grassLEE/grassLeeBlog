@@ -108,8 +108,8 @@ def post(self):
         
         conn.commit()
         conn.close()
-        return {'message': 'Novel added'}```
-
+        return {'message': 'Novel added'}
+```
 The next section demonstrates some additional complications, namely with the data = request.get_json(force=True) statement. This is used to make a simpler POST command in our terminal, without the need to set the specfic 'application/json' parameter with every request. Moreover, the programming logic accounts for non-json requests, which returns a dictionary error message, helping ensure we are handling the correct data format. 
 
 Next, we use the request library to pass in the arguments for **title** and **focus**, which again features another potential error message that would catch any missing data points before attempt to save them to our db. 
