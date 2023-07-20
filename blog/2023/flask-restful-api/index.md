@@ -74,7 +74,7 @@ class AllNovels(Resource):
 A unique aspect of the initial def GET(self, novel_id=None) is the **=None** as this allows us to use the parameter for both single query entries and all entries in the db. The following **if statement** establishes the operating logic to handle the **novel_id** if it exists. 
 
 This single query entry makes use of the specific novel_id by setting it as a parameter of the SQL query: 
-```cursor.execute("SELECT * FROM novels WHERE id=?", (novel_id,))``
+```cursor.execute("SELECT * FROM novels WHERE id=?", (novel_id,))```
 
 Whereas the following **else** statement provides an alternative SQL query targetting ALL entries. cursor.execute("SELECT * FROM novels")
 
@@ -83,7 +83,7 @@ Now to iterate over the similar types in our db, we call the cursor again along 
 As the .append functions to add the various arguments, we are able to comb through the entire list and print the list back with the final return statement **return {'novels': novel_list}**
 
 ## POST Method:
-``` def post(self):
+```def post(self):
         data = request.get_json(force=True)
         if not data:
             return {'message': "Invalid request format. Expected 'application/json'."}, 400
@@ -107,8 +107,7 @@ As the .append functions to add the various arguments, we are able to comb throu
         
         conn.commit()
         conn.close()
-        return {'message': 'Novel added'}
-```
+        return {'message': 'Novel added'}```
 
 The next section demonstrates some additional complications, namely with the data = request.get_json(force=True) statement. This is used to make a simpler POST command in our terminal, without the need to set the specfic 'application/json' parameter with every request. Moreover, the programming logic accounts for non-json requests, which returns a dictionary error message, helping ensure we are handling the correct data format. 
 
@@ -118,7 +117,7 @@ Afterwards, our POST method needs to set up the correct handling logic for the c
 
 Finally, we have our next SQL command, which targets the correct table in our db and passes the arguments of our POST in the parsing tool. 
 
-cursor.execute("INSERT INTO novels (title, pages, focus) VALUES (?, ?, ?)", (args['title'], args['pages'], args['focus']))
+```cursor.execute("INSERT INTO novels (title, pages, focus) VALUES (?, ?, ?)", (args['title'], args['pages'], args['focus']))```
 
 Remember, we have to use the same amount of (?, ?, ?) to match the number of arguments we are passing into the db.
 
@@ -132,7 +131,7 @@ Here, we have two separate endpoints, the first **'/dsworld'** will return our l
 
 Finally, make sure to include this:
 
-```if __name__ == '__main__':``
+```if __name__ == '__main__':```
     ```app.run(debug=True)```
 
 This will allow for the app to run reliably and include debug messages should we encounter an error. 
