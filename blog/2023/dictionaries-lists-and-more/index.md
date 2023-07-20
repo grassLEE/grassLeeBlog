@@ -21,7 +21,9 @@ Currently, our dictionary is relatively short, so we can easily spot a character
 
 ```
 disc_dict.get(‘Sir Sam Vimes’) # first call the dictionary name, then we enter the string we want to query
+
 print(disc_dict.get(‘Sir Sam Vimes’) # to view the data, wrap the function in a print statement
+
 $City Watch # printed output
 ```
 Another handy function comes with our first entry in the list below, title len(). This function performs a count on all the key-value pairs that appear in our dictionary. Again, this is easy to count when the present information is relatively small, but becomes increasingly challenging as the data grows.
@@ -30,7 +32,9 @@ Let’s take a look at the len() function in action before we move on to lists a
 
 ```
 len(disc_dict) #calls the function, passing in our disc_dict dictionary
+
 print(len(disc_dict) # as with our above example, to view the data we need to call our print function.
+
 $ 4 # printed output representing the number of key/value pairs in our dictionary
 ```
 
