@@ -43,7 +43,7 @@ conn.commit()
 ```
 The initial import statements establish our methods and application connections. However, before we go any farther, we need to set up our working database. In the above example, we see the If statement is used to programmatically spin up a new database with the name = dsworld.db.
 
-This programming logic allows use to run the API without having to previously spin up the **dsworld.db** file. However, we will need to make our db connection in each of our following endpoints.
+This programming logic allows us to run the API without having to previously spin up the **dsworld.db** file. However, we will need to make our db connection in each of our following endpoints.
 
 ## GET Method:
 ```
@@ -74,7 +74,7 @@ class AllNovels(Resource):
 A unique aspect of the initial def GET(self, novel_id=None) is the **=None** as this allows us to use the parameter for both single query entries and all entries in the db. The following **if statement** establishes the operating logic to handle the **novel_id** if it exists. 
 
 This single query entry makes use of the specific novel_id by setting it as a parameter of the SQL query: 
-cursor.execute("SELECT * FROM novels WHERE id=?", (novel_id,))
+```cursor.execute("SELECT * FROM novels WHERE id=?", (novel_id,))``
 
 Whereas the following **else** statement provides an alternative SQL query targetting ALL entries. cursor.execute("SELECT * FROM novels")
 
@@ -120,7 +120,21 @@ Finally, we have our next SQL command, which targets the correct table in our db
 
 cursor.execute("INSERT INTO novels (title, pages, focus) VALUES (?, ?, ?)", (args['title'], args['pages'], args['focus']))
 
-Rem
+Remember, we have to use the same amount of (?, ?, ?) to match the number of arguments we are passing into the db.
 
+## Add_Resource():
+Now that we have our GET and POST method established. We are nearly ready to give this a test run, but first we have to establish our URL endpoint.
+
+This is performed with this simple command logic
+```api.add_resource(AllNovels, '/dsworld', '/dsworld/<int:novel_id>'```
+
+Here, we have two separate endpoints, the first **'/dsworld'** will return our list of novels from the db. While the **'/dsworld/<int:novel_id>'** will return the individual novel based on ID.
+
+Finally, make sure to include this:
+
+```if __name__ == '__main__':``
+    ```app.run(debug=True)```
+
+This will allow for the app to run reliably and include debug messages should we encounter an error. 
 
 
