@@ -15,12 +15,112 @@ Before attempting this in your own development environment, make sure you have t
 
 If unsure, the command [pip freeze] provides a list of all current packages.
 
-## Connecting to a Database
+## Database Connection
 ```
-Codebase```
+from flask import Flask, request
+from flask_restful import Api, Resource, reqparse
+import sqlite3
+import os
+import json
 
+app = Flask(__name__)
+api = Api(app)
+
+if not os.path.exists('dsworld.db'):
+    open('dsworld.db', 'w').close()
+
+# Create a connection to the SQLite database
+conn = sqlite3.connect('dsworld.db')
+cursor = conn.cursor()
+
+# Create a table if it doesn't exist
+cursor.execute('''CREATE TABLE IF NOT EXISTS novel
+                (id INTEGER PRIMARY KEY AUTOINCREMENT,
+                name TEXT NOT NULL,
+                email TEXT NOT NULL)''')
+conn.commit()
+
+```
 The initial import statements establish our methods and application connections. However, before we go any farther, we need to set up our working database. In the above example, we see the If statement is used to programmatically spin up a new database with the name = dsworld.db.
 
+This programming logic allows use to run the API without having to previously spin up the **dsworld.db** file. However, we will need to make our db connection in each of our following endpoints.
+
+## GET Method:
+```
+class AllNovels(Resource):
+    def get(self, novel_id=None):
+        conn = sqlite3.connect('dsworld.db')
+        cursor = conn.cursor()
+
+        if novel_id:
+            cursor.execute("SELECT * FROM novels WHERE id=?", 
+                           (novel_id,))
+        else:
+            cursor.execute("SELECT * FROM novels")
+
+        novels = cursor.fetchall()
+        novel_list = []
+        for novel in novels:
+            novel_list.append({
+                'title': novel[1],
+                'pages': novel[2],
+                'focus': novel[3]
+            })
+        
+        conn.close()
+        return {'novels': novel_list}
+```
+
+A unique aspect of the initial def GET(self, novel_id=None) is the **=None** as this allows us to use the parameter for both single query entries and all entries in the db. The following **if statement** establishes the operating logic to handle the **novel_id** if it exists. 
+
+This single query entry makes use of the specific novel_id by setting it as a parameter of the SQL query: 
+cursor.execute("SELECT * FROM novels WHERE id=?", (novel_id,))
+
+Whereas the following **else** statement provides an alternative SQL query targetting ALL entries. cursor.execute("SELECT * FROM novels")
+
+Now to iterate over the similar types in our db, we call the cursor again along with the fetchall() method. This will allow us to populate the **novel_list** with a simple **for** loop. 
+
+As the .append functions to add the various arguments, we are able to comb through the entire list and print the list back with the final return statement **return {'novels': novel_list}**
+
+## POST Method:
+``` def post(self):
+        data = request.get_json(force=True)
+        if not data:
+            return {'message': "Invalid request format. Expected 'application/json'."}, 400
+
+        title = data.get('title')
+        focus = data.get('focus')
+
+        if not title or not focus:
+            return {'message': 'Missing required data'}, 401
+        
+        conn = sqlite3.connect('dsworld.db')
+        cursor = conn.cursor()
+        parser = reqparse.RequestParser()
+        parser.add_argument('title', type=str, required=True)
+        parser.add_argument('pages', type=int, required=True)
+        parser.add_argument('focus', type=str, required=True)
+        args = parser.parse_args()
+
+        cursor.execute("INSERT INTO novels (title, pages, focus) VALUES (?, ?, ?)", 
+                       (args['title'], args['pages'], args['focus']))
+        
+        conn.commit()
+        conn.close()
+        return {'message': 'Novel added'}
+```
+
+The next section demonstrates some additional complications, namely with the data = request.get_json(force=True) statement. This is used to make a simpler POST command in our terminal, without the need to set the specfic 'application/json' parameter with every request. Moreover, the programming logic accounts for non-json requests, which returns a dictionary error message, helping ensure we are handling the correct data format. 
+
+Next, we use the request library to pass in the arguments for **title** and **focus**, which again features another potential error message that would catch any missing data points before attempt to save them to our db. 
+
+Afterwards, our POST method needs to set up the correct handling logic for the components of the endpoint. Notice, the parser.add_arguments() method features an additional argument. This is completely fine as we don't have to use every component of an endpoint when setting up qualifying checks. 
+
+Finally, we have our next SQL command, which targets the correct table in our db and passes the arguments of our POST in the parsing tool. 
+
+cursor.execute("INSERT INTO novels (title, pages, focus) VALUES (?, ?, ?)", (args['title'], args['pages'], args['focus']))
+
+Rem
 
 
 
