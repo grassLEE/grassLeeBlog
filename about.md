@@ -8,6 +8,6 @@ Hello! My name is **Jeffrey Graessley** and I built this portfolio/blog space as
 ## Okay, back to the fun stuff...
 A major part of generating reliable reports for the R&D tax credit requires longform interviews with developers and engineers, breaking down the previous effort into smaller, component pieces. And by virtue of those many conversations, my interest in software development grew exponentially. 
 
-I would like to invite you to check out my various projects and associated writeups... especially my Notes_Reader project, where I programmatically generate 'notes' files for various individuals based on the input value from the user. 
+I would like to invite you to check out my various projects and associated writeups... especially my Book App project, where I programmatically input the novel information for each book I read into a SQLite3 database.
 
 
