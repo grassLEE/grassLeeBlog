@@ -2,7 +2,7 @@
 
 <img src="https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/bookapp1.png" width="50%" float="right" margin-right="10px">  
 
-*This screen shows the interface screen for adding a new novel to the DB.* 
+*This screen shows the interface for adding a new novel to the DB.* 
 
 <img src="https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/bookapp3.png" width="50%" float="right" margin-right="10px">
 
