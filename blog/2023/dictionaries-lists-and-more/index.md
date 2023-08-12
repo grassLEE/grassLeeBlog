@@ -13,7 +13,7 @@ Each of our key value pairs are separated by colons and wrapped in quotes... mak
 
 However, keep in mind that a dictionary can hold multiple value types, including integers, lists, and even other dictionaries. 
 
-Now that we have some key/value pairs established, we can now explore some of the basic Python functions to retrieve that data.
+Now that we have some key/value pairs established, we can explore some of the basic Python functions to retrieve that data.
 
 ## Dictionary Functions:
 
@@ -28,7 +28,7 @@ $City Watch # printed output
 ```
 Another handy function comes with our first entry in the list below, title len(). This function performs a count on all the key-value pairs that appear in our dictionary. Again, this is easy to count when the present information is relatively small, but becomes increasingly challenging as the data grows.
 
-Let’s take a look at the len() function in action before we move on to lists and other container types in Python:
+Let’s take a look at the len() function in action before we move on to lists:
 
 ```
 len(disc_dict) #calls the function, passing in our disc_dict dictionary
@@ -98,4 +98,6 @@ There are several more popular functions available in the list below, and countl
 5. `list.index(element)`: Returns the index of the first occurrence of the specified element in the list.
 6. `list.reverse()`: Reverses the order of the elements in the list.
 
-In future articles, we will explore some of the fundamentals of **for** and **while** loops, which allows us to iterate over a set of data and perform commands at each instance. 
+In future articles, we will explore some of the fundamentals of **for** and **while** loops, which allows us to iterate over a set of data and perform commands at each instance.  
+
+Just like what we saw in our List example
