@@ -2,7 +2,7 @@
 
 After going through the straightforward startup documentation found on the official [flask page]("https://flask.palletsprojects.com/en/2.3.x/"), we are ready to explore the Flask_RESTful library and some of the syntax to programmatically store and retrieve data elements. 
 
-Flask_RESTful utilizes the elements of Create, Read, Update, and Delete (CRUD)– these four elements makeup the mainstays of persistent data management using a Structured Query Language (SQL) database. 
+Flask_RESTful utilizes the elements Create, Read, Update, and Delete (CRUD)– these four elements makeup the mainstays of persistent data management using a Structured Query Language (SQL) database. 
 
 ## CRUD Breakdown:
 **Create** - This type refers to the addition of new data entries into the database. In the Flask_RESTful library, the method leverages the POST statement.  
