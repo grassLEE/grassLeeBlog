@@ -1,7 +1,7 @@
 # Setting Up Reusable Templates:
 
 ## Template Structure
-Most technical writing tasks rely on a set of formatting considerations that can often be tedious to setup, or at the very least time-consuming. That's where a template will save us invaluable time... along with future headaches, should we forget to follow the formatting requirements exactly. 
+Most technical writing tasks rely on a set of formatting considerations that can often be tedious to setup, or at the very least time-consuming. That's where a template will save us invaluable time and future headaches, should we forget to follow the formatting requirements exactly. 
 
 In this article, I will walk you through the steps necessary to set up a reusable template using two popular writing tools: Microsoft Word and Google Docs. 
 
@@ -11,17 +11,17 @@ As a quick aside, although it is not recommended for sharing, the above tools ar
 ## Word - for Windows
 To start, make sure you have set up the document in alignment with your working style guide and/or similar content from other writers at the organization. 
 
-Consider these mainstays: font, size, spacing considerations, and headers. Of course, there are other reusable text elements that can be included, just be sure to apply them to the document before saving.
+Consider these mainstays: font, size, spacing, and headers. There are other reusable text elements that can be included-- just be sure to apply them to the document before saving.
 
 Once the document is ready, all we have to do is click 'Save As' and then change the format option to Word Template, which is denoted with the **.dotx** type. Make sure to give the template a descriptive name, a great practice for reusability, and we are all set! 
 
-To use the document, we simply select our template from the open(new) option and select the template. Note, if the file is not present, click the adjacent tab labeled 'Recent' and it will be the most recent option available. 
+To use the document, we simply select our template from the open(new) option and select the template. Note, if the file is not present, click the adjacent tab labeled 'Recent' and you will see the most recent option available. 
 
 ## Google Docs
 Google Docs has a few options depending on our account type. However, the most basic (free) option does not allow for direct template saving. 
 
 ### However, we have a simple work around available: 
-- First, create a a new folder called 'Template', within this folder we are then going to create a single Google Doc.  
+- First, create a a new folder named 'Templates.' Within this folder we are then going to create a single Google Doc.  
 - Next, repeat the same process as found in the [Word - for Windows](#word---for-windows) section. 
 - Afterwards, save the new Google Doc and close it. Now, rather than opening the file, right click on it, and select 'Make a Copy'.
 - Finally, the file copy generates in our Template folder. Right click on it again and select 'Organize > Move'. Then just select the destination location and begin drafting!
