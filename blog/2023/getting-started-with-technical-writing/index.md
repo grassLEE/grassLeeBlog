@@ -1,6 +1,6 @@
 # Getting Started with Technical Writing
 
-I'm sure you are well aware of the amazing opportunities available through technical writing, so I won't spend a lot of time going over this ever expanding field. However, if you would like to learn a bit more about potential roles, the purpose of technical documents, and other helpful tips, click [this link](https://idratherbewriting.com/) for a rich repository of information.  
+I'm sure you are well aware of the amazing opportunities available through technical writing, so I won't spend a lot of time going over this ever expanding field. However, if you would like to learn a bit more about potential roles, the purpose of technical documents, and other helpful tips, check out [id rather be writing](https://idratherbewriting.com/) for a rich repository of information.  
 
 Instead, I would like to talk about the tools technical writers use to draft new content, edit/revise, and produce final deliverables.
 
