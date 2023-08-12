@@ -1,6 +1,6 @@
 # Flask Restful API
 
-After going through the straightforward startup documentation found on the official [flask page](""), we are ready to explore the Flask_RESTful library and some of the syntax to programmatically store and retrieve data elements. 
+After going through the straightforward startup documentation found on the official [flask page]("https://flask.palletsprojects.com/en/2.3.x/"), we are ready to explore the Flask_RESTful library and some of the syntax to programmatically store and retrieve data elements. 
 
 Flask_RESTful utilizes the elements of Create, Read, Update, and Delete (CRUD)– these four elements makeup the mainstays of persistent data management using a Structured Query Language (SQL) database. 
 
@@ -112,7 +112,7 @@ def post(self):
 ```
 The next section demonstrates some additional complications, namely with the data = request.get_json(force=True) statement. This is used to make a simpler POST command in our terminal, without the need to set the specfic 'application/json' parameter with every request. Moreover, the programming logic accounts for non-json requests, which returns a dictionary error message, helping ensure we are handling the correct data format. 
 
-Next, we use the request library to pass in the arguments for **title** and **focus**, which again features another potential error message that would catch any missing data points before attempt to save them to our db. 
+Next, we use the request library to pass in the arguments for **title** and **focus**, which again features another potential error message that would catch any missing data points before attempting to save them to our db. 
 
 Afterwards, our POST method needs to set up the correct handling logic for the components of the endpoint. Notice, the parser.add_arguments() method features an additional argument. This is completely fine as we don't have to use every component of an endpoint when setting up qualifying checks. 
 
