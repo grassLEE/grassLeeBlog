@@ -1,6 +1,6 @@
 # Getting Started with Technical Writing
 
-I'm sure you are well aware of the amazing opportunities available through technical writing, so I won't spend a lot of time going over this ever expanding field. However, if you would like to learn a bit more about potential roles, the purpose of technical documents, and other helpful tips, check out [id rather be writing](https://idratherbewriting.com/) for a rich repository of information.  
+I'm sure you are well aware of the amazing opportunities available through technical writing, so I won't spend a lot of time going over this ever-expanding field. However, if you would like to learn a bit more about potential roles, the purpose of technical documents, and other helpful tips, check out [id rather be writing](https://idratherbewriting.com/) for a rich repository of information.  
 
 Instead, I would like to talk about the tools technical writers use to draft new content, edit/revise, and produce final deliverables.
 
@@ -12,18 +12,18 @@ These are but a few examples from dozens, if not hundreds, of widely used option
 
 It's a fair assumption that most people are familiar with the common WYSIWYG platforms, but if this is not the case, log into Google (or create an account, they are FREE!), and follow this quick-start [tutorial](https://support.google.com/docs/answer/7068618?hl=en&co=GENIE.Platform%3DDesktop&oco=0). Make sure to familiarize yourself with the basic commands to properly format, save, and share your content. 
 
-The last two entries (iA Writer and OxygenXML) demonstrate some of the more advanced principles of technical writing, i.e. **structured writing**. These tools leverage a lightweight markup language, as in the case with iA Writer, and modular, component based writing, found with OxygenXML.  
+The last two entries (iA Writer and OxygenXML) demonstrate some of the more advanced principles of technical writing, i.e., **structured writing**. These tools leverage a lightweight markup language, as in the case with iA Writer, and modular, component-based writing, found with OxygenXML.  
 
-We'll spend a bit more time with that concept and its far reaching potential in a later article, but for now let's focus on something more tangible and easy to pickup.
+We'll spend a bit more time with that concept and its far-reaching potential in a later article, but for now let's focus on something more tangible and easier to pick up.
 
 ## Learning Markdown:
 
 There are several great resources available for learning everything you need to know to start writing with Markdown. A couple of my favorites include this [**free tutorial**](https://www.markdowntutorial.com/lesson/1/), and the textbook, *The Markdown Guide* available on [**Amazon**](https://www.amazon.com/Markdown-Guide-Matt-Cone-ebook/dp/B07G7JB641/ref=sr_1_1?crid=V3PPDG97Z61J&keywords=markdown+guide&qid=1678321060&sprefix=markdown+guid%2Caps%2C183&sr=8-1). 
 
-But I'd like to spend a little bit of time demonstrating some lesser known syntax and functional capabilities available through Markdown.
+But I'd like to spend a little bit of time demonstrating some lesser-known syntax and functional capabilities available through Markdown.
 
 ### Linking to sections within a document: 
-Of course, both of the above resources will go into great detail concerning hyperlinks, including inline and reference options. 
+Of course, both above resources will go into great detail concerning hyperlinks, including inline and reference options. 
 
 However, what about navigation links for text sections within a Markdown file?
 
@@ -53,7 +53,7 @@ Depending on the text editor you select, the built-in function will likely sugge
 In our next post we will look into some of the more popular Markdown flavors, which offer novel functionality, such as improved list/table creation. 
 
 ### Wrap-Up: 
-There are seemingly a limitless amount of tools, platforms, text editors, and resources out there to help you. Don't get bogged down with the amount of choices, experiment with a range of solutions, and find out what works best for you.
+There are seemingly a limitless number of tools, platforms, text editors, and resources out there to help you. Don't get bogged down with the number of choices, experiment with a range of solutions, and find what works best for you.
 
 And consider starting your technical writer journey out with Markdown, you'll find it is much easier to get started than you might think... and there is seemingly no limits to this tool's potential. 
 
