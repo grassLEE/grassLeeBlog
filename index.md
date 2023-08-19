@@ -10,7 +10,7 @@ Optimizations to workflow can come in many shapes and sizes, one of the most imp
 Exploring some of the fundamentals of the flask_restful library, this article demonstrates a simple api to programatically POST and GET data saved to a database using SQLite3. 
 
 [Dictionaries, Lists, and more... in Python](https://jeffreygraessley.com/blog/2023/dictionaries-lists-and-more)  
-This article explores the containers available in Python3, including rules that each follow, functions unique to the type, and other best practices for utilization. 
+This article explores the containers available in Python, including rules that each follow, functions unique to the type, and other best practices for utilization. 
 
 [Lesser Known HTML Elements and Attributes](https://jeffreygraessley.com/blog/2023/lesser-known-html-elements-and-attributes)  
 Diving into some of the lesser known elements and attributes available in HTML, this article discusses the benefits of using these elements, and examples to intergrate into nearly any project.
