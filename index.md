@@ -16,4 +16,4 @@ This article explores the containers available in Python, including rules that e
 Diving into some of the lesser known elements and attributes available in HTML, this article discusses the benefits of using these elements, and examples to intergrate into nearly any project.
 
 [Setting the HTML Table](https://jeffreygraessley.com/blog/2023/setting-the-html-table)  
-Continuing to examine other HTML elements, this article investigates the mechanics of a table list in HTML, including examples and best practices. 
+Continuing to examine other HTML elements, this article investigates the structure of a table list in HTML, including examples and best practices. 
