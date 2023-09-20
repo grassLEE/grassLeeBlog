@@ -60,9 +60,9 @@ ByteSynth Fusion
 """.splitlines()
 ```
 
-Notice the last line of this first example, which stores the list of project names copied and pasted directly between the quotes, and ends with the ‘.splitlines()’ method. This method will return a list of the lines separated into a string, each broken at the line break.
+Notice the last line of this first example, which stores the list of project names copied and pasted directly between the quotes, ends with the ‘.splitlines()’ method. This method will return a list of the lines separated into a string, each broken at the line break.
 
-However, keep in mind, we can preserve the line breaks by passing in the argument ‘keepends’ and setting the value to True– this will ensure the return statement includes the previous line breaks. Although, it is not the only way to separate the information into new lines (more on that later).
+However, keep in mind, we can preserve the line breaks by passing in the argument ‘keepends’ and setting the value to True– this will ensure the returned object includes the previous line breaks. Although, this is not the only way to separate the information into new lines (more on that below).
 
 Moving forward, we’ll save the Project Descriptions in the same way and print the output of our variables to verify the information appears correct.
 
@@ -84,7 +84,7 @@ Now, we have cleanly formatted printouts of our two lists, but we can still do m
 
 Time for a bit of Python magic. We will use the **zip() method** to package the two lists together and produce tuples until we have exhausted the entries. 
 
-There are a few properties to consider when utilizing the **zip() method**, most importantly the (strict =) argument can be passed directly along with the two iterables (our lists: project_titles and project_descriptions). By default, 'strict' is set to True, meaning that the connected tuples must match 1-for-1, else the program will cause an error.
+There are a few properties to consider when utilizing the **zip() method**, most importantly the (strict =) argument can be passed directly along with the two iterables (our lists: project_titles and project_descriptions). By default, 'strict' is set to True, meaning that the connected tuples must match 1-for-1, else the program will cause an error. So, if we have 25 titles, we will need to have 25 descriptions available. Otherwise, we will encounter an error.
 
 ```Python
 project_data = zip(project_titles, project_descriptions)
@@ -109,4 +109,6 @@ ByteSynth Fusion:
 Dive into the world of digital synthesis with ByteSynth Fusion, a powerful software synthesizer that unlocks boundless creative possibilities in music production.
 
 ```
-[Top](#preparing-with-python:-formatting-lists-between-common-apps)
+With this tool in place, we can spend more time preparing for challenging writing tasks, technical interviews with engineers, or any other task the modern technical writer faces everyday. Anything beats the drudge work of formatting a seemingly endless list of data entries.  
+
+[Top](#preparing-with-python-formatting-lists-between-common-apps)
