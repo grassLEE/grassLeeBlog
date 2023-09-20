@@ -111,4 +111,4 @@ Dive into the world of digital synthesis with ByteSynth Fusion, a powerful softw
 ```
 With this tool in place, we can spend more time preparing for challenging writing tasks, technical interviews with engineers, or any other task the modern technical writer faces everyday. Anything beats the drudge work of formatting a seemingly endless list of data entries.  
 
-[Top](#preparing-with-python-formatting-lists-between-common-apps)
+[Top](#preparing-with-python)
