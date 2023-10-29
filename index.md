@@ -6,8 +6,8 @@ This short article walks through a simple Python script capable of accepting raw
 [Getting Started with Technical Writing](https://jeffreygraessley.com/blog/2023/getting-started-with-technical-writing)  
 In this post I discuss some of the most commonly used tools that a TW will use throughout their day-to-day tasks. Additionally, I explore some of the syntax of Markdown and demonstrate in-page linking.
 
-[Setting Up Reusable Templates](http://jeffreygraessley.com/blog/2023/setting-up-reusable-templates)  
-Optimizations to workflow can come in many shapes and sizes, one of the most important tasks, and an opportunity to optimize our writing process, comes from reusable templates. This article explores methods for Word and Google Docs, along with some additional best practices. 
+[Slicing with Python](http://jeffreygraessley.com/blog/2023/slicing-with-python)  
+Slicing with Python explores the basic syntax for targeting data within an iterable. Moreover, I explore some more advanced topics, such as, assigning, modifying, deleting, and procuring specific values.
 
 [Flask_Restful API - Saving to a Database](https://jeffreygraessley.com/blog/2023/flask-restful-api)  
 Exploring some of the fundamentals of the flask_restful library, this article demonstrates a simple api to programatically POST and GET data saved to a database using SQLite3. 
