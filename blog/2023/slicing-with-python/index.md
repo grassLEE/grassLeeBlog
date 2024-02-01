@@ -7,7 +7,7 @@ my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 my_list[2]
 # returns 3
 ```
-However, when we need to grab entire sections of a list, or filter through specific entries, Python offers *slicing*. The syntax for slicing is quite simple: first, we indicate our starting position, next, we indicate our stop point (keep in mind Python’s non-inclusive nature), and finally, we establish a *step*. The step establishes the increment that our program will skip between values.  
+However, when we need to grab entire sections of a list, or filter through specific entries, Python offers *slicing*. The syntax for slicing is quite simple: first, we indicate our starting position, next, we indicate our stop point (keep in mind Python’s non-inclusive nature), and finally, we establish a *step*. The step defines the increment that our program will skip between values.  
 
 ## Example: Basic Structure:
 
@@ -18,16 +18,16 @@ my_list[0:11:2] # First position ‘0’ begins at the start of the list. Second
 slice[a:b:c] # a=start, b=end, c=step– the increment between values.
 ```
 ## Reverse Syntax
-In addition to the basic syntax, slicing also supports reversing. This is performed simply with the use of a negative integer. Just as indexing functions with a negative integer, such as -1, procures the last item from our list. Python allows for our entire list to be returned to us, without changing the actual list itself, in reverse order.  
+In addition to the basic syntax, slicing also supports reversing. This is performed simply with the use of a negative integer. Just as indexing functions with a negative integer, such as -1, returns the last item from our list. Python allows for our entire list to be returned to us, without changing the actual list itself, in reverse order.  
 
 ```Python
 my_list[::-1] # [10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
 ``` 
-But that is only the beginning of what slicing has to offer. Let’s see how Python can introduce new data into and remove data from a mutable sequence  with slicing.
+But that is only the beginning of what slicing has to offer. Let’s see how Python can introduce new data into and remove data from a mutable sequence with slicing.
 
 ## Assigning to Slices
 
-Python can modify, procure, and delete information in place from a list using slice notation. Setting slice notation at the left-hand of our expression allows us to change values and remove specific via a delete statement. The below examples explore these concepts in more detail.
+Python can modify, retrieve, and delete information in place from a list using slice notation. Setting slice notation at the left-hand of our expression allows us to change values and remove specific values via a delete statement. The below examples explore these concepts in more detail.
 
 ### Examples:
 
@@ -60,7 +60,7 @@ Our last example appears to break the normal syntax, but is actually just a litt
 
 ## Common Error with Assignments
 
-Whenever we are attempting to replace an iterable’s data, it is important to remember that a new assignment can only be replaced with another iterable object–otherwise we will encounter an error. The example below demonstrates the error code, including a try/except statement.
+Whenever we are attempting to replace an iterable’s data, it is important to remember that a new assignment can only be replaced with another iterable object–-otherwise we will encounter an error. The example below demonstrates the error code, including a try/except statement.
 
 ### Examples:
 
@@ -85,6 +85,6 @@ The first example shows our expected error code, returning a ‘TypeError,’ wh
 
 We can see in the second example, the same slicing notation is expressed, but now wrapped within a try/except statement. This will prevent our program from crashing when attempting an unsupported operation. However, we still have not made any changes to our list. 
 
-We can see that the fix is quite easy, simply wrap the integer inside square brackets, turning the raw number into an iterable. Our final print statement confirms the addition of the new value, 100. 
+However, the fix is quite easy, simply wrap the integer inside square brackets, turning the raw number into an iterable. Our final print statement confirms the addition of the new value, 100. 
 
 [Top](#slicing-objects-how-to-target-data-in-python)
