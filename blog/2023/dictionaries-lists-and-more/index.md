@@ -9,7 +9,7 @@ A dictionary is denoted with **{curly braces}**, which are designed to hold key 
 ```
 disc_dict = {'Rincewind the Wizzard': 'Wizard', 'Sir Sam Vimes': 'City Watch', 'Nobby Nobs': 'City Watch', 'Queen Magrat': 'Witch'}
 ```
-Each of our key value pairs are separated by colons and wrapped in quotes... making these entries strings. 
+Each of our key value pairs are separated by colons and wrapped in quotes... Making these entries strings. 
 
 However, keep in mind that a dictionary can hold multiple value types, including integers, lists, and even other dictionaries. 
 
