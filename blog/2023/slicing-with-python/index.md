@@ -87,4 +87,4 @@ We can see in the second example, the same slicing notation is expressed, but no
 
 However, the fix is quite easy, simply wrap the integer inside square brackets, turning the raw number into an iterable. Our final print statement confirms the addition of the new value, 100. 
 
-[Top](#slicing-objects-how-to-target-data-in-python)
+[Top](#slicing-objects:-how-to-target-data-in-python)
