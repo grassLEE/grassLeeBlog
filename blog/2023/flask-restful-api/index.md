@@ -76,11 +76,9 @@ A unique aspect of the initial def GET(self, novel_id=None) is the **=None** as 
 This single query entry makes use of the specific novel_id by setting it as a parameter of the SQL query: 
 ```cursor.execute("SELECT * FROM novels WHERE id=?", (novel_id,))```
 
-Whereas the following **else** statement provides an alternative SQL query targetting ALL entries. cursor.execute("SELECT * FROM novels")
+Whereas the following **else** statement provides an alternative SQL query targeting ALL entries. cursor.execute("SELECT * FROM novels")
 
-Now to iterate over the similar types in our db, we call the cursor again along with the fetchall() method. This will allow us to populate the **novel_list** with a simple **for** loop. 
-
-As the .append functions to add the various arguments, we are able to comb through the entire list and print the list back with the final return statement **return {'novels': novel_list}**
+Now to iterate over the similar types in our db, we call the cursor again along with the fetchall() method. This will allow us to populate the **novel_list** with a simple **for** loop. We are then able to comb through the entire list and print the list back with the final return statement **return {'novels': novel_list}**
 ## POST Method:
 
 ```
@@ -110,7 +108,7 @@ def post(self):
         conn.close()
         return {'message': 'Novel added'}
 ```
-The next section demonstrates some additional complications, namely with the data = request.get_json(force=True) statement. This is used to make a simpler POST command in our terminal, without the need to set the specfic 'application/json' parameter with every request. Moreover, the programming logic accounts for non-json requests, which returns a dictionary error message, helping ensure we are handling the correct data format. 
+The next section demonstrates some additional complications, namely with the data = request.get_json(force=True) statement. This is used to make a simpler POST command in our terminal, without the need to set the specific 'application/json' parameter with every request. Moreover, the programming logic accounts for non-json requests, which returns a dictionary error message, helping ensure we are handling the correct data format. 
 
 Next, we use the request library to pass in the arguments for **title** and **focus**, which again features another potential error message that would catch any missing data points before attempting to save them to our db. 
 
