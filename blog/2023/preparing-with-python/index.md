@@ -8,7 +8,7 @@ Let’s explore a common data entry task and see how Python can simplify the pro
 
 ![image of example excel chart](https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/excel_project_example.png)
 
-You’ll notice the column 'A' features a long list of names. Now, if we wanted to extract that information, we could just copy/paste the data into a Word doc and call it a day. However, that option is quite limiting in terms of formatting and modularity. This can become further complicated if our example list features several duplicate values.  
+You’ll notice that column 'A' features a long list of names. Now, if we wanted to extract that information, we could just copy/paste the data into a Word doc and call it a day. However, that option is quite limiting in terms of formatting and modularity. This can become further complicated if our example list features several duplicate values.  
 
 Let's take a look at an example with these values pasted directly, we will end up with a crude copy of the list such as this sample.  
 ## Sample Copy/Paste - With Formatting
@@ -69,11 +69,11 @@ Moving forward, we’ll save the Project Descriptions in the same way and print 
 
 ```Python
 for project_title in project_titles:
-print(f"\n{project_title}")
+    print(f"\n{project_title}")
 
 
 for project_description in project_descriptions:
-print(f"\n{project_description}")
+    print(f"\n{project_description}")
 ```
 
 These simple For loops iterate through our variable lists, applying a new line before each entry prints. Allowing us to pick and choose when to add or remove a new line from our formatted list.
