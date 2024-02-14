@@ -1,4 +1,4 @@
-# Getting Started with Technical Writing
+# Getting Started with Technical Writing through Markdown
 
 I'm sure you are well aware of the amazing opportunities available through technical writing, so I won't spend a lot of time going over this ever-expanding field. However, if you would like to learn a bit more about potential roles, the purpose of technical documents, and other helpful tips, check out [id rather be writing](https://idratherbewriting.com/) for a rich repository of information.  
 
@@ -12,7 +12,7 @@ These are but a few examples from dozens, if not hundreds, of widely used option
 
 It's a fair assumption that most people are familiar with the common WYSIWYG platforms, but if this is not the case, log into Google (or create an account, they are FREE!), and follow this quick-start [tutorial](https://support.google.com/docs/answer/7068618?hl=en&co=GENIE.Platform%3DDesktop&oco=0). Make sure to familiarize yourself with the basic commands to properly format, save, and share your content. 
 
-The last two entries (iA Writer and OxygenXML) demonstrate some of the more advanced principles of technical writing, i.e., **structured writing**. These tools leverage a lightweight markup language, as in the case with iA Writer, and modular, component-based writing, found with OxygenXML.  
+The last two entries (iA Writer and OxygenXML) demonstrate some of the more advanced principles of technical writing. These tools leverage a lightweight markup language, as is the case with iA Writer, and modular, component-based writing, found with OxygenXML.  
 
 We'll spend a bit more time with that concept and its far-reaching potential in a later article, but for now let's focus on something more tangible and easier to pick up.
 
@@ -30,12 +30,12 @@ However, what about navigation links for text sections within a Markdown file?
 Markdown has us covered. Take a look at this quick code snippet:
 
 ~~~ 
-[Top](#getting-started-with-technical-writing)
+[Top](#getting-started-with-technical-writing-through-markdown)
 ~~~
 
 This output leverages the normal *linking* syntax, but with a few key differences. To start, the parens ( ) begin with a single hash symbol (#). The hash symbol allows us to directly link back with a previous heading section. Our example above matches the first heading value, i.e. the title of this post. Next, we follow the hash symbol with the value of the heading (in our case, once again, the title of this blog post).
 
-However, there is a notable exception to keep in mind. The value inside the parenthesis must be lowercase, separated by a dash (-).
+However, there is a notable exception to keep in mind. The value inside the parentheses must be lowercase, separated by a dash (-).
 
 Remember, these embedded links aren't exclusive to the introduction of our files. They can be utilized for any section of your Markdown file that's notated with a heading tag
 
@@ -55,8 +55,8 @@ In our next post we will look into some of the more popular Markdown flavors, wh
 ### Wrap-Up: 
 There are seemingly a limitless number of tools, platforms, text editors, and resources out there to help you. Don't get bogged down with the number of choices, experiment with a range of solutions, and find what works best for you.
 
-And consider starting your technical writer journey out with Markdown, you'll find it is much easier to get started than you might think... and there is seemingly no limits to this tool's potential. 
+And consider starting your technical writing journey with Markdown, you'll find it is much easier to get started than you might think... and there are seemingly no limits to this tool's potential. 
 
 <img src="https://raw.githubusercontent.com/grassLEE/grassleeblog/main/images/markdown.jpg" width="25%" height="25%">
 
-[Top](#getting-started-with-technical-writing)
+[Top](#getting-started-with-technical-writing-through-markdown)
