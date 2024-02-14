@@ -101,3 +101,5 @@ There are several more popular functions available in the list below, and countl
 In future articles, we will explore some of the fundamentals of **for** and **while** loops, which allows us to iterate over a set of data and perform commands at each instance.  
 
 Just like what we saw in our List example
+
+[Top](#dictionaries-lists-and-more-in-python)
