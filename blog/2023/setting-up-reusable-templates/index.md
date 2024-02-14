@@ -28,3 +28,5 @@ Google Docs has a few options depending on our account type. However, the most b
 
 
 Although it can seem like a burden to set up, the time saved when generating new content remains invaluable. Plus, now we no longer have to fret over pesky formatting issues. Instead we can just focus on the fun part... WRITING!
+
+[top](#setting-up-reusable-templates)
