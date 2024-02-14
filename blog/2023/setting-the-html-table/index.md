@@ -24,7 +24,7 @@ Our &lt;tr&gt; element will wrap each of our &lt;td&gt;(s), but let's see what i
 ```
 
 ## Each Piece of the Table:
-It can be a little tricky at first, but keep in mind that the &lt;td&gt; elements will extend the width of the row... not the length of the column. 
+It can be a little tricky at first, but keep in mind that the &lt;td&gt; elements will extend the width of the row... Not the length of the column. 
 
 This basic markup will generate the architecture for our table. However, we can introduce a bit of styling (without the need for CSS) to make the data more readable with the **&lt;th&gt;&lt;/th&gt;**, which serves as our **table header** element. 
 
